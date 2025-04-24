@@ -15,8 +15,8 @@ from tqdm.notebook import tqdm_notebook as tqdm
 import os
 
 # Define paths
-real = "real_and_fake_face_detection/real_and_fake_face/training_real/"
-fake = "real_and_fake_face_detection/real_and_fake_face/training_fake/"
+real = "real_fake_faces/real_and_fake_face_detection/real_and_fake_face/training_real/"
+fake = "real_fake_faces/real_and_fake_face_detection/real_and_fake_face/training_fake/"
 
 # Load image paths
 real_path = os.listdir(real)
@@ -46,7 +46,7 @@ for i in range(16):
 plt.show()
 
 # Data augmentation
-dataset_path = "real_and_fake_face"
+dataset_path = "real_fake_faces/real_and_fake_face_detection/real_and_fake_face/"
 data_with_aug = ImageDataGenerator(horizontal_flip=True,
                                    vertical_flip=False,
                                    rescale=1./255,

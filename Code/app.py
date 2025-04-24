@@ -64,7 +64,7 @@ if uploaded_file is not None:
 
 
 st.title("Model Training Graph")
-st.markdown("### Model Training accuracy: 95%")
+st.markdown("### Model Training accuracy: 94%")
 st.image("Figure_2.png")
 st.markdown("### Model Training Loss")
 st.image("Figure_1.png")
@@ -73,7 +73,7 @@ st.image("Figure_1.png")
 st.markdown("""
 ---
 **Contact Us:**
-For more information and queries, please contact us at [contact@example.com](mailto:contact@example.com).
+For more information and queries, please contact us at [2023ugcs055@nitjsr.ac.in](mailto:2023ugcs055@nitjsr.ac.in).
 
 **Follow us on:**
 [Twitter](https://twitter.com) | [LinkedIn](https://linkedin.com) | [Facebook](https://facebook.com)
